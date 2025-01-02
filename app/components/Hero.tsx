@@ -14,9 +14,9 @@ const Hero = () => {
         <input
           type="text"
           placeholder="Search this blog"
-          className="flex-1 focus:outline-none bg-transparent focus:bg-transparent py-2 px-4 rounded-full"
+          className="flex-1 w-2/3 max-sm:max-w-[250px] focus:outline-none bg-transparent focus:bg-transparent py-2 px-4 rounded-full"
         />
-        <IoSearch className="size-8 cursor-pointer font-extralight text-blue2 hover:text-blue1" />
+        <IoSearch className="shrink-0 size-8 cursor-pointer font-extralight text-blue2 hover:text-blue1" />
       </form>
     </div>
   );
