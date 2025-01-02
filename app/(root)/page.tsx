@@ -1,7 +1,4 @@
 import { blogPosts } from "@/api";
-import Image from "next/image";
-import Link from "next/link";
-import { FiChevronsRight } from "react-icons/fi";
 import PostCard from "../components/PostCard";
 import FeaturedPosts from "../components/FeaturedPosts";
 import Hero from "../components/Hero";
